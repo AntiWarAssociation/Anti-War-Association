@@ -1,0 +1,115 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+/* CSS Document */
+
+
+.Title {
+	text-align: center;
+	font-size: 230%;
+	display: inline-block;
+	margin-left: 39%;
+	margin-right: 45%;
+	color: rgba(59, 51, 51, 1);
+	font-family: "Yatra One";
+	margin-bottom: 1%;
+}
+
+.TitleLink {
+	text-align: center;
+	font-size: 230%;
+	display: inline-block;
+	margin-left: 39%;
+	margin-right: 45%;
+	color: rgba(59, 51, 51, 1);
+	font-family: "Yatra One";
+	margin-bottom: 1%;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+.TitleLink:hover {
+	color: rgba(59, 51, 51, 0.5);
+}
+
+body {
+	background-color: rgba(242, 242, 238, 1);
+}
+
+.Navbar {
+	position: sticky;
+	display: block;
+	width: 100%;
+	background-color: rgba(151, 141, 136, 1);
+	border-bottom: 10px double rgba(131, 108, 84, 1);
+	z-index: 1;
+	top: 0;
+}
+
+.NavbarBottom {
+	display: block;
+}
+
+.nav {
+	font-size: 150%;
+	font-family: "Jost";
+	padding-left: 10%;
+	padding-right: 10%;
+	text-decoration: none;
+	transition: 0.3s;
+	color: rgba(65, 57, 57, 1);
+}
+
+.navdisable {
+	font-size: 150%;
+	display: inline;
+	font-family: "Jost";
+	padding-left: 10%;
+	padding-right: 10%;
+	text-decoration: none;
+	transition: 0.3s;
+	color: rgba(80,69,69,0.5);
+}
+
+.nav:hover {
+	text-decoration: underline;
+	font-size: 160%;
+	color: rgba(95, 87, 87, 1);
+}
+
+.TextSection {
+	margin-top: 5%;
+}
+
+.Subtitle {
+	font-size: 290%;
+	padding-left: 12%;
+	font-family: "Jost";
+	color: rgba(65, 57, 57, 1);
+	font-weight: bolder;
+}
+
+.Paragraph1 {
+	font-size: 140%;
+	margin-left: 10%;
+	font-family: 'Dot Gothic';
+	color: rgba(59, 51, 51, 1);
+}
+
+.timeline {
+	display: inline-block;
+	margin-left: 20%;
+	margin-right: 45%;
+	margin-bottom: 1%;
+	border: 1% double rgba(131, 108, 84, 1);
+	border-radius: 1%;
+}
+
+
+.disclaimer {
+	font-size: 100%;
+	color: rgba(59, 51, 51, 0.5);
+	margin-left: 30%;
+	font-family: 'Dot Gothic';
+}
